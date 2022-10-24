@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(to right, gray, black);
+}
+
+* {
+  font-family: Tahoma, sans-serif;
+}
+button {
+  background-color: blue;
+  background-image: linear-gradient(to top, purple, blue);
+  border: 1px solid purple;
+}
+button:active {
+  background-color: blue;
+  background-image: linear-gradient(to top, purple, blue);
+  border: 1px solid purple;
+}
+#name {
+	position: absolute;
+	background-image: linear-gradient(to top, white, gray);
+	border: 3px solid black;
+	border-radius: 5px;
+	z-index: 1;
+	margin-top: -15px;
+	left: 20%;
+	top: 20%;
+}
+#dialogue {
+	position: absolute;
+	background-image: linear-gradient(to right, red, cyan);
+	width: 70%;
+	height: 100px;
+	left: 15%;
+	border: 5px solid black;
+	border-radius: 5px;
+	top: 20%;
+}
+#name2 {
+	position: absolute;
+	text-align: right;
+	background-image: linear-gradient(to top, white, gray);
+	border: 3px solid black;
+	border-radius: 5px;
+	z-index: 1;
+	margin-top: 75px;
+	left: 27%;
+	opacity: 0;
+}
+#dialogue2 {
+	position: absolute;
+	background-image: linear-gradient(to right, red, cyan);
+	opacity: 0;
+	width: 50%;
+	height: 50px;
+	left: 25%;
+	border: 5px solid black;
+	border-radius: 5px;
+	margin-top: 90px;
+}
+img {
+	object-fit: contain;
+	width: 100%;
+	height: 160px;
+	visibility: hidden;
+}
+.hidden {
+	visibility: hidden;
+	position: fixed;
+}
+.dbutton {
+	border: 5px outset blue;
+}
+.dbutton:hover {
+	border: 5px outset #5648f4;
+}
+.dbutton:active {
+	border: 5px inset blue;
+}
+#dbholder {
+	background-color: yellow;
+	position: absolute;
+	text-align: center;
+	width: 40%;
+	height: 28px;
+	border: 3px solid orange;
+	top: 80%;
+	left: 30%;
+}
